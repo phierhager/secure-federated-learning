@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "secure-federated-learning"
+version = "0.1.0"
+description = ""
+authors = ["Philip Hierhager <philip.hierhager@googlemail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+torch = "^2.5.1"
+syft = "^0.9.2"
+torchvision = "^0.20.1"
+scikit-learn = "^1.5.2"
+tenseal = "^0.3.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
